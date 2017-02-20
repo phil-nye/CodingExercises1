@@ -14,6 +14,7 @@ Additional questions:
 //  Runtime would be O(N) because the char compare gets executed N times, so runtime will depend on the length of the string.
 //  It takes O(N) to print the solution.
 //  Tests: return type (is string array); not null; size of returned array (if equals 4); returns "hello", "how", "are", "you".
+//  It took 15 min to write this solution and maybe another 15 min to debug.
 
 public class CodingChallenge {
 	public static String[] mysplit(String str, char c) {
